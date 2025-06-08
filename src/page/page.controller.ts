@@ -15,7 +15,7 @@ import mongoose, { ObjectId } from 'mongoose';
 import { AuthGuard } from '@nestjs/passport';
 import { UpdatePageDto } from './dtos/update-page.dto';
 
-@Controller('pages')
+@Controller('page')
 export class PageController {
   constructor(private readonly pageService: PageService) {}
 

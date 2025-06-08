@@ -13,6 +13,7 @@ import { ClientsModule } from './clients/clients.module';
 import { AdminController } from './admin/admin.controller';
 import { AdminModule } from './admin/admin.module';
 import { PassportModule } from '@nestjs/passport';
+import { PagesModule } from './pages/pages.module';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { PassportModule } from '@nestjs/passport';
     ValueModule,
     ClientsModule,
     AdminModule,
+    PagesModule,
   ],
   controllers: [
     AppController,

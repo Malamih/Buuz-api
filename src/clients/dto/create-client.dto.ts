@@ -23,7 +23,7 @@ export class CreateClientDto {
   @IsEnum(Services, {
     each: true,
     message:
-      'Please choose one or more of these services: [video production, tvc commercial, creative-concepts, marketing campaigns]',
+      'Please choose one or more of these services: [Commercial, Films ,Short films, Series, TV Programs, Video Clip, Sketch]',
   })
   @IsArray()
   readonly services: Services[];

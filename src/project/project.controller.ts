@@ -26,8 +26,9 @@ export class ProjectController {
   findAll(
     @Query('page') page: number,
     @Query('limit') limit: number,
+    @Query('type') type: string,
   ): Promise<getProjectRes> {
-    return this.projectService.findAll(page, limit);
+    return this.projectService.findAll(page, limit, type);
   }
   @Get(':id')
   findOne(@Param('id') id: ObjectId) {

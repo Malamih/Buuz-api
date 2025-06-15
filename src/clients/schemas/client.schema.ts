@@ -1,10 +1,13 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
 export enum Services {
-  VIDEO_PRODUCTION = 'video-production',
-  TVC_COMMERCIAL = 'tvc-commercial',
-  CREATIVE_CONCEPTS = 'creative-concepts',
-  MARKETING_CAMPAIGNS = 'marketing-campaigns',
+  COMMERCIAL = 'commercial',
+  FILMS = 'films',
+  SHORT_FILMS = 'short-films',
+  SERIES = 'series',
+  TV_PROGRAM = 'tv-program',
+  VIDEO_CLIP = 'video-clip',
+  SKETCH = 'sketch',
 }
 
 @Schema({

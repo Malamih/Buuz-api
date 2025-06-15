@@ -29,9 +29,13 @@ export class ProjectService {
     @InjectModel(page.name) private pageModel: mongoose.Model<page>,
   ) {}
 
-  async findAll(page: number = 1, limit: number = 999): Promise<getProjectRes> {
+  async findAll(
+    page: number = 1,
+    limit: number = 999,
+    type?: string,
+  ): Promise<getProjectRes> {
     const [data, total] = await Promise.all([
-      this.projectModel.find().exec(),
+      this.projectModel.find({ ...(type ? { type } : {}) }).exec(),
       this.projectModel.countDocuments().exec(),
     ]);
     return {

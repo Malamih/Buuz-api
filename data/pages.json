@@ -140,12 +140,63 @@
       }
     ],
     "about_us": "We are your creative powerhouse, here to turn your ideas into visual masterpieces. Whether it’s engaging TV commercials or innovative creative concepts, we bring your vision to life with creativity, passion, and professionalism. Let’s create the buzz your brand deserves!\n\n",
-    "who_are_we": "Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions\n\n",
+    "who_we_are": "Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions\n\n",
     "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it.\n\n\n\n",
-    "our_vision_and_values": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.\n\n"
+    "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.\n\n",
+    "our_services": "At Beez Production, we offer a full range of services designed to amplify your brand’s presence",
+    "services": [
+      {
+        "title": "Video Production",
+        "description": "From concept creation to final edits, we deliver cinematic visuals that tell your brand’s story powerfully and effectively",
+        "icon": "ClapperboardIcon"
+      },
+      {
+        "title": "TV Commercials",
+        "description": "We specialize in creating commercials that grab attention and leave a powerful impression. Whether it’s humorous, dramatic, or action-packed, we deliver it with precision",
+        "icon": "LucideTv"
+      },
+      {
+        "title": "Creative Concepts",
+        "description": "Looking for something unique? Our creative team develops fresh, out-of-the-box ideas that resonate with your audience and leave them wanting more",
+        "icon": "LucidePencil"
+      },
+      {
+        "title": "Marketing Campaigns",
+        "description": "From branding videos to promotional reels, we craft campaigns that effectively showcase your products and services to the right audience",
+        "icon": "LucideMegaphone"
+      }
+    ],
+    "why_choose_beez_production": "Choosing the right partner for your production needs can make all the difference. Here’s why Beez Production is your best choice",
+    "features": [
+      {
+        "title": "Innovative Storytelling",
+        "description": "We create content that captures hearts and mindvs"
+      },
+      {
+        "title": "Creative Expertise",
+        "description": "Fresh ideas tailored to your brand’s needs"
+      },
+      {
+        "title": "Tailored Solutions",
+        "description": "Customized strategies to achieve your goals"
+      },
+      {
+        "title": "Tailored Solutions",
+        "description": "Customized strategies to achieve your goals"
+      },
+      {
+        "title": "Professional Quality",
+        "description": "High-end visuals with meticulous attention to detail"
+      },
+      {
+        "title": "Collaborative Process",
+        "description": "We listen, we create, and we deliver"
+      }
+    ],
+    "portfolio": "We’ve had the pleasure of working with a diverse range of clients, producing commercials and campaigns that stand out in the market. Our work has been featured nationwide, earning us a reputation for creativity and excellence.\nStay tuned for our upcoming projects – we’re just getting started!"
   },
   "about": {
-    "who_are_we": "Beez Production is an iraqi video production",
+    "who_we_are": "Beez Production is an iraqi video production",
     "about_us": "dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions.",
     "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it",
     "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences",
@@ -170,7 +221,6 @@
         "title": "Integrity",
         "description": "Building lasting relationships based on trust and transparency"
       }
-    ],
-    "why_us": "Choosing the right partner for your production needs can make all the difference. Here’s why Beez Production is your best choice"
+    ]
   }
 }

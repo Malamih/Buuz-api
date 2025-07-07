@@ -20,11 +20,6 @@ export class CreateClientDto {
   @IsString()
   readonly message: string;
   @IsNotEmpty()
-  @IsEnum(Services, {
-    each: true,
-    message:
-      'Please choose one or more of these services: [Commercial, Films ,Short films, Series, TV Programs, Video Clip, Sketch]',
-  })
   @IsArray()
   readonly services: Services[];
 }

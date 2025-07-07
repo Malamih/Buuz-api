@@ -2,158 +2,287 @@
   "home": {
     "aboutProjects": [
       {
-        "_id": "68461765af6f0202640e47f7",
+        "_id": "686b44d9d38f0522c8e56b93",
+        "title": "Mirmaz  Academy TVC | مرماز تحلها",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/2017408315-568ce470e2389676f5cea7163c33b15385bb204ca640ba1e1d04216decdf5c5f-d?region=us",
+        "video": "https://vimeo.com/1085775754",
+        "created_time": "2025-05-19T17:35:09+00:00",
+        "video_uri": "/videos/1085775754",
+        "project_id": "1085775754",
+        "createdAt": "2025-07-07T03:54:01.672Z",
+        "updatedAt": "2025-07-07T03:54:01.672Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44ded38f0522c8e56b98",
         "title": "Mirmaz  Academy TVC | Finding the missing X",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
         "video": "https://vimeo.com/1085482332",
         "created_time": "2025-05-18T17:53:21+00:00",
         "video_uri": "/videos/1085482332",
         "project_id": "1085482332",
-        "createdAt": "2025-06-08T23:06:13.117Z",
-        "updatedAt": "2025-06-08T23:06:13.117Z",
+        "createdAt": "2025-07-07T03:54:06.205Z",
+        "updatedAt": "2025-07-07T03:54:06.205Z",
         "__v": 0
       },
       {
-        "_id": "6846177caf6f0202640e4800",
-        "title": "TCL TV TVC | هيج لو هيج",
-        "description": "This is the description.",
-        "client": "Malamih",
-        "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/1995656737-286100428757701526f6eb9591bf8e11560ede7deb1fa52605db4c3bd2b0c7f0-d?region=us",
-        "video": "https://vimeo.com/1067692231",
-        "created_time": "2025-03-20T11:04:50+00:00",
-        "video_uri": "/videos/1067692231",
-        "project_id": "1067692231",
-        "createdAt": "2025-06-08T23:06:36.877Z",
-        "updatedAt": "2025-06-08T23:06:36.877Z",
-        "__v": 0
-      },
-      {
-        "_id": "6846176caf6f0202640e47fa",
+        "_id": "686b44e2d38f0522c8e56b9d",
         "title": "Mirmaz Academy TVC | مرماز تحلها",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
         "video": "https://vimeo.com/1067798040",
         "created_time": "2025-03-20T15:54:35+00:00",
         "video_uri": "/videos/1067798040",
         "project_id": "1067798040",
-        "createdAt": "2025-06-08T23:06:20.905Z",
-        "updatedAt": "2025-06-08T23:06:20.905Z",
+        "createdAt": "2025-07-07T03:54:10.805Z",
+        "updatedAt": "2025-07-07T03:54:10.805Z",
         "__v": 0
       },
       {
-        "_id": "68461783af6f0202640e4803",
+        "_id": "686b44e8d38f0522c8e56ba2",
+        "title": "TCL | Video Commercial | هيج لو هيج",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995657209-67d8b23e64e1fe2e9c2d8ca11da0398283179ec22b2bd8f87c1c97b200b7a35e-d?region=us",
+        "video": "https://vimeo.com/1067695026",
+        "created_time": "2025-03-20T11:13:11+00:00",
+        "video_uri": "/videos/1067695026",
+        "project_id": "1067695026",
+        "createdAt": "2025-07-07T03:54:16.320Z",
+        "updatedAt": "2025-07-07T03:54:16.320Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44edd38f0522c8e56ba7",
+        "title": "TCL TV TVC | هيج لو هيج",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995656737-286100428757701526f6eb9591bf8e11560ede7deb1fa52605db4c3bd2b0c7f0-d?region=us",
+        "video": "https://vimeo.com/1067692231",
+        "created_time": "2025-03-20T11:04:50+00:00",
+        "video_uri": "/videos/1067692231",
+        "project_id": "1067692231",
+        "createdAt": "2025-07-07T03:54:21.636Z",
+        "updatedAt": "2025-07-07T03:54:21.636Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44f1d38f0522c8e56bac",
         "title": "ROMA TVC | ALL ROADS LEADS TO GOLD",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995313105-544f23c19422dbab6716f53ae9fc378e6c629ec5c7a39ef881e738da3ee06925-d?region=us",
         "video": "https://vimeo.com/1067404990",
         "created_time": "2025-03-19T16:20:22+00:00",
         "video_uri": "/videos/1067404990",
         "project_id": "1067404990",
-        "createdAt": "2025-06-08T23:06:43.654Z",
-        "updatedAt": "2025-06-08T23:06:43.654Z",
+        "createdAt": "2025-07-07T03:54:25.826Z",
+        "updatedAt": "2025-07-07T03:54:25.826Z",
         "__v": 0
       },
       {
-        "_id": "6846175caf6f0202640e47f4",
-        "title": "Mirmaz  Academy TVC | مرماز تحلها",
-        "description": "This is the description.",
-        "client": "Malamih",
-        "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/2017408315-568ce470e2389676f5cea7163c33b15385bb204ca640ba1e1d04216decdf5c5f-d?region=us",
-        "video": "https://vimeo.com/1085775754",
-        "created_time": "2025-05-19T17:35:09+00:00",
-        "video_uri": "/videos/1085775754",
-        "project_id": "1085775754",
-        "createdAt": "2025-06-08T23:06:04.432Z",
-        "updatedAt": "2025-06-08T23:06:04.432Z",
-        "__v": 0
-      }
-    ],
-    "portfolioProjects": [
-      {
-        "_id": "684617a1af6f0202640e4812",
+        "_id": "686b452ed38f0522c8e56bd4",
         "title": "Alasal Sweet TVC | Ramadan Campaign",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995192878-6e395d88b04320838973530db557ef09bb63bc5539b8fe377a32d5c63fb07842-d?region=us",
         "video": "https://vimeo.com/1067306208",
         "created_time": "2025-03-19T11:52:16+00:00",
         "video_uri": "/videos/1067306208",
         "project_id": "1067306208",
-        "createdAt": "2025-06-08T23:07:13.516Z",
-        "updatedAt": "2025-06-08T23:07:13.516Z",
+        "createdAt": "2025-07-07T03:55:26.001Z",
+        "updatedAt": "2025-07-07T03:55:26.001Z",
+        "__v": 0
+      }
+    ],
+    "portfolioProjects": [
+      {
+        "_id": "686b44f6d38f0522c8e56bb1",
+        "title": "Mirmaz Academy  TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
+        "video": "https://vimeo.com/1067383413",
+        "created_time": "2025-03-19T15:25:04+00:00",
+        "video_uri": "/videos/1067383413",
+        "project_id": "1067383413",
+        "createdAt": "2025-07-07T03:54:30.442Z",
+        "updatedAt": "2025-07-07T03:54:30.442Z",
         "__v": 0
       },
       {
-        "_id": "68461790af6f0202640e4809",
+        "_id": "686b44fad38f0522c8e56bb6",
         "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995281658-f62c9c6a3d243a1dfc3d5cd27ae50c9a0880f15935dfdada31c9a4da12e4653b-d?region=us",
         "video": "https://vimeo.com/1067379033",
         "created_time": "2025-03-19T15:13:45+00:00",
         "video_uri": "/videos/1067379033",
         "project_id": "1067379033",
-        "createdAt": "2025-06-08T23:06:56.605Z",
-        "updatedAt": "2025-06-08T23:06:56.605Z",
+        "createdAt": "2025-07-07T03:54:34.814Z",
+        "updatedAt": "2025-07-07T03:54:34.814Z",
         "__v": 0
       },
       {
-        "_id": "68461796af6f0202640e480c",
+        "_id": "686b4529d38f0522c8e56bcf",
         "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
-        "description": "This is the description.",
-        "client": "Malamih",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995263932-7bb078ce8df72a75b9a260e66b65873abc024baa4fd1e2d975f2af6ea49a0a45-d?region=us",
+        "video": "https://vimeo.com/1067363464",
+        "created_time": "2025-03-19T14:36:46+00:00",
+        "video_uri": "/videos/1067363464",
+        "project_id": "1067363464",
+        "createdAt": "2025-07-07T03:55:21.719Z",
+        "updatedAt": "2025-07-07T03:55:21.719Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b4524d38f0522c8e56bca",
+        "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih",
+          "description": "Malamih Creative is a full-service creative agency delivering innovative solutions in branding, design, marketing, and digital development. We are committed to turning your ideas into reality and leaving a lasting mark through creativity and precision.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751860406/logos/g7mbvmgcdfkefknenhu7.png",
+          "logo_public_id": "logos/g7mbvmgcdfkefknenhu7",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-07T03:55:26.112Z"
+        },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995279480-f21efa3e0c68b470883f6bffff68a1f373fd6e8e40cf1d1a60ed4398123a7ed4-d?region=us",
         "video": "https://vimeo.com/1067369067",
         "created_time": "2025-03-19T14:49:29+00:00",
         "video_uri": "/videos/1067369067",
         "project_id": "1067369067",
-        "createdAt": "2025-06-08T23:07:02.158Z",
-        "updatedAt": "2025-06-08T23:07:02.158Z",
-        "__v": 0
-      },
-      {
-        "_id": "6846175caf6f0202640e47f4",
-        "title": "Mirmaz  Academy TVC | مرماز تحلها",
-        "description": "This is the description.",
-        "client": "Malamih",
-        "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/2017408315-568ce470e2389676f5cea7163c33b15385bb204ca640ba1e1d04216decdf5c5f-d?region=us",
-        "video": "https://vimeo.com/1085775754",
-        "created_time": "2025-05-19T17:35:09+00:00",
-        "video_uri": "/videos/1085775754",
-        "project_id": "1085775754",
-        "createdAt": "2025-06-08T23:06:04.432Z",
-        "updatedAt": "2025-06-08T23:06:04.432Z",
+        "createdAt": "2025-07-07T03:55:16.586Z",
+        "updatedAt": "2025-07-07T03:55:16.586Z",
         "__v": 0
       }
     ],
-    "about_us": "We are your creative powerhouse, here to turn your ideas into visual masterpieces. Whether it’s engaging TV commercials or innovative creative concepts, we bring your vision to life with creativity, passion, and professionalism. Let’s create the buzz your brand deserves!\n\n",
-    "who_we_are": "Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions\n\n",
-    "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it.\n\n\n\n",
-    "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.\n\n",
+    "about_us": "We are your creative powerhouse, here to turn your ideas into visual masterpieces. Whether it’s engaging TV commercials or innovative creative concepts, we bring your vision to life with creativity, passion, and professionalism. Let’s create the buzz your brand deserves!",
+    "who_we_are": " Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions",
+    "our_mission": " To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it.",
+    "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.",
     "our_services": "At Beez Production, we offer a full range of services designed to amplify your brand’s presence",
     "services": [
       {
         "title": "Video Production",
         "description": "From concept creation to final edits, we deliver cinematic visuals that tell your brand’s story powerfully and effectively",
-        "icon": "ClapperboardIcon"
+        "icon": "Clapperboard"
       },
       {
         "title": "TV Commercials",
         "description": "We specialize in creating commercials that grab attention and leave a powerful impression. Whether it’s humorous, dramatic, or action-packed, we deliver it with precision",
-        "icon": "LucideTv"
+        "icon": "TvIcon"
       },
       {
         "title": "Creative Concepts",
@@ -163,7 +292,7 @@
       {
         "title": "Marketing Campaigns",
         "description": "From branding videos to promotional reels, we craft campaigns that effectively showcase your products and services to the right audience",
-        "icon": "LucideMegaphone"
+        "icon": "Megaphone"
       }
     ],
     "why_choose_beez_production": "Choosing the right partner for your production needs can make all the difference. Here’s why Beez Production is your best choice",
@@ -181,10 +310,6 @@
         "description": "Customized strategies to achieve your goals"
       },
       {
-        "title": "Tailored Solutions",
-        "description": "Customized strategies to achieve your goals"
-      },
-      {
         "title": "Professional Quality",
         "description": "High-end visuals with meticulous attention to detail"
       },
@@ -193,10 +318,11 @@
         "description": "We listen, we create, and we deliver"
       }
     ],
-    "portfolio": "We’ve had the pleasure of working with a diverse range of clients, producing commercials and campaigns that stand out in the market. Our work has been featured nationwide, earning us a reputation for creativity and excellence.\nStay tuned for our upcoming projects – we’re just getting started!"
+    "vision_and_value_video": "1067404990",
+    "portfolio": "We’ve had the pleasure of working with a diverse range of clients, producing commercials and campaigns that stand out in the market. Our work has been featured nationwide, earning us a reputation for creativity and excellence.\n Stay tuned for our upcoming projects – we’re just getting started!"
   },
   "about": {
-    "who_we_are": "Beez Production is an iraqi video production",
+    "who_we_are": "Beez Production is an Iraqi video production",
     "about_us": "dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions.",
     "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it",
     "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences",
@@ -207,7 +333,7 @@
       },
       {
         "title": "Quality",
-        "description": "Excellence in every detail, from scripting to post-production."
+        "description": " Excellence in every detail, from scripting to post-production."
       },
       {
         "title": "Collaboration",

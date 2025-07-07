@@ -1,4 +1,5 @@
 import {
+  BadRequestException,
   Body,
   Controller,
   Delete,
@@ -15,7 +16,7 @@ import {
   ProjectService,
 } from './project.service';
 import { CreateProjectDto } from './dtos/create-project.dt';
-import { ObjectId } from 'mongoose';
+import { isValidObjectId, ObjectId, Types } from 'mongoose';
 import { UpdateProjectDto } from './dtos/update-project.dto';
 import { AuthGuard } from '@nestjs/passport';
 
@@ -27,8 +28,11 @@ export class ProjectController {
     @Query('page') page: number,
     @Query('limit') limit: number,
     @Query('type') type: string,
+    @Query('client') client: string,
   ): Promise<getProjectRes> {
-    return this.projectService.findAll(page, limit, type);
+    if (client && !isValidObjectId(client))
+      throw new BadRequestException('Invalid client ID');
+    return this.projectService.findAll(page, limit, { type, client });
   }
   @Get(':id')
   findOne(@Param('id') id: ObjectId) {

@@ -15,12 +15,13 @@ export const pageSchema = SchemaFactory.createForClass(page);
 pageSchema.virtual('projects', {
   ref: 'project',
   localField: '_id',
-  foreignField: 'page'
-})
+  foreignField: 'page',
+});
 pageSchema.virtual('values', {
   ref: 'Value',
   localField: '_id',
-  foreignField: 'page'
-})
-pageSchema.set('toObject', { virtuals: true })
-pageSchema.set('toJSON', { virtuals: true })
+  foreignField: 'page',
+});
+
+pageSchema.set('toObject', { virtuals: true });
+pageSchema.set('toJSON', { virtuals: true });

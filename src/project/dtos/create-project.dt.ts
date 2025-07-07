@@ -5,10 +5,7 @@ export class CreateProjectDto {
   @IsString()
   readonly title: string;
   @IsNotEmpty()
-  @IsString()
-  readonly description: string;
-  @IsNotEmpty()
-  @IsString()
+  @IsMongoId()
   readonly client: string;
   @IsNotEmpty()
   @IsString()

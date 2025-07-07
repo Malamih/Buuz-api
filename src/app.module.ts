@@ -14,6 +14,10 @@ import { AdminController } from './admin/admin.controller';
 import { AdminModule } from './admin/admin.module';
 import { PassportModule } from '@nestjs/passport';
 import { PagesModule } from './pages/pages.module';
+import { ServicesModule } from './services/services.module';
+import { PortfoliosModule } from './portfolios/portfolios.module';
+import { EmployeesModule } from './employees/employees.module';
+import { CloudinaryModule } from './cloudinary/cloudinary.module';
 
 @Module({
   imports: [
@@ -28,6 +32,10 @@ import { PagesModule } from './pages/pages.module';
     ClientsModule,
     AdminModule,
     PagesModule,
+    ServicesModule,
+    PortfoliosModule,
+    EmployeesModule,
+    CloudinaryModule,
   ],
   controllers: [
     AppController,

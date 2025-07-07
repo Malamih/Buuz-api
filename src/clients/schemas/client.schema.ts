@@ -23,7 +23,7 @@ export class Client {
   @Prop({ required: true })
   message: string;
   @Prop({ required: true })
-  services: Services[];
+  services: [];
 }
 
 export const clientSchema = SchemaFactory.createForClass(Client);

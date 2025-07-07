@@ -6,9 +6,6 @@ export class UpdateProjectDto {
   readonly title: string;
   @IsOptional()
   @IsString()
-  readonly description: string;
-  @IsOptional()
-  @IsString()
   readonly client: string;
   @IsOptional()
   @IsString()

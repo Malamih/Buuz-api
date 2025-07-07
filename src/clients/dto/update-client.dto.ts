@@ -21,7 +21,6 @@ export class UpdateClientDto {
   @IsString()
   readonly message: string;
   @IsOptional()
-  @IsEnum(Services, { each: true })
   @IsArray()
   readonly services: Services[];
 }

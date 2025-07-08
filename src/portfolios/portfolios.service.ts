@@ -193,21 +193,23 @@ export class PortfoliosService {
         secure_url = uploadResult.secure_url;
         public_id = uploadResult.public_id;
       }
-      const portfolio = await this.portoflioModel.findByIdAndUpdate(
-        id,
-        {
-          $set: {
-            ...data,
-            ...(public_id && secure_url
-              ? { image: secure_url, image_public_id: public_id }
-              : {}),
-            ...(logo_public_id && logo_secure_url
-              ? { logo: logo_secure_url, logo_public_id: logo_public_id }
-              : {}),
+      const portfolio = await this.portoflioModel
+        .findByIdAndUpdate(
+          id,
+          {
+            $set: {
+              ...data,
+              ...(public_id && secure_url
+                ? { image: secure_url, image_public_id: public_id }
+                : {}),
+              ...(logo_public_id && logo_secure_url
+                ? { logo: logo_secure_url, logo_public_id: logo_public_id }
+                : {}),
+            },
           },
-        },
-        { new: true },
-      );
+          { new: true },
+        )
+        .select('name');
 
       if (!portfolio) {
         throw new Error('Client is not found');

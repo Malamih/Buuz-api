@@ -164,9 +164,14 @@ export class ProjectService {
       });
     }
 
-    const result = await this.projectModel.findByIdAndUpdate(id, dataToUpdate, {
-      new: true,
-    });
+    const result = await this.projectModel
+      .findByIdAndUpdate(id, dataToUpdate, {
+        new: true,
+      })
+      .populate({
+        path: 'client',
+        select: 'name',
+      });
 
     return {
       message: 'Project has been updated',

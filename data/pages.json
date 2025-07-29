@@ -1,161 +1,161 @@
 {
-    "home": {
-        "aboutProjects": [],
-        "portfolioProjects": [
-            {
-                "_id": "686b44ded38f0522c8e56b98",
-                "title": "Mirmaz  Academy TVC | Finding the missing X",
-                "client": {
-                    "_id": "686b44b5d38f0522c8e56b77",
-                    "name": "Malmaih Creative"
-                },
-                "type": "Commercial",
-                "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
-                "video": "https://vimeo.com/1085482332",
-                "created_time": "2025-05-18T17:53:21+00:00",
-                "video_uri": "/videos/1085482332",
-                "project_id": "1085482332",
-                "createdAt": "2025-07-07T03:54:06.205Z",
-                "updatedAt": "2025-07-08T04:08:27.780Z",
-                "__v": 0
-            },
-            {
-                "_id": "686b44e2d38f0522c8e56b9d",
-                "title": "Mirmaz Academy TVC | مرماز تحلها",
-                "client": {
-                    "_id": "686b44b5d38f0522c8e56b77",
-                    "name": "Malmaih Creative"
-                },
-                "type": "Commercial",
-                "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
-                "video": "https://vimeo.com/1067798040",
-                "created_time": "2025-03-20T15:54:35+00:00",
-                "video_uri": "/videos/1067798040",
-                "project_id": "1067798040",
-                "createdAt": "2025-07-07T03:54:10.805Z",
-                "updatedAt": "2025-07-08T04:08:32.463Z",
-                "__v": 0
-            },
-            {
-                "_id": "686b44f6d38f0522c8e56bb1",
-                "title": "ROMA TVC | ALL ROADS LEADS TO GOLD",
-                "client": {
-                    "_id": "686b44b5d38f0522c8e56b77",
-                    "name": "Malmaih Creative"
-                },
-                "type": "Commercial",
-                "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
-                "video": "https://vimeo.com/1067383413",
-                "created_time": "2025-03-19T15:25:04+00:00",
-                "video_uri": "/videos/1067383413",
-                "project_id": "1067383413",
-                "createdAt": "2025-07-07T03:54:30.442Z",
-                "updatedAt": "2025-07-08T04:08:57.570Z",
-                "__v": 0
-            },
-            {
-                "_id": "686b4524d38f0522c8e56bca",
-                "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
-                "client": {
-                    "_id": "686b44b5d38f0522c8e56b77",
-                    "name": "Malmaih Creative"
-                },
-                "type": "Commercial",
-                "thumbnail": "https://i.vimeocdn.com/video/1995279480-f21efa3e0c68b470883f6bffff68a1f373fd6e8e40cf1d1a60ed4398123a7ed4-d?region=us",
-                "video": "https://vimeo.com/1067369067",
-                "created_time": "2025-03-19T14:49:29+00:00",
-                "video_uri": "/videos/1067369067",
-                "project_id": "1067369067",
-                "createdAt": "2025-07-07T03:55:16.586Z",
-                "updatedAt": "2025-07-08T04:09:02.716Z",
-                "__v": 0
-            }
-        ],
-        "about_us": "We are your creative powerhouse, here to turn your ideas into visual masterpieces. Whether it’s engaging TV commercials or innovative creative concepts, we bring your vision to life with creativity, passion, and professionalism. Let’s create the buzz your brand deserves!",
-        "who_we_are": "Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions",
-        "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it.",
-        "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.",
-        "our_services": "At Beez Production, we offer a full range of services designed to amplify your brand’s presence",
-        "services": [
-            {
-                "title": "Video Production",
-                "description": "From concept creation to final edits, we deliver cinematic visuals that tell your brand’s story powerfully and effectively",
-                "icon": "Clapperboard"
-            },
-            {
-                "title": "TV Commercials",
-                "description": "We specialize in creating commercials that grab attention and leave a powerful impression. Whether it’s humorous, dramatic, or action-packed, we deliver it with precision",
-                "icon": "TvIcon"
-            },
-            {
-                "title": "Creative Concepts",
-                "description": "Looking for something unique? Our creative team develops fresh, out-of-the-box ideas that resonate with your audience and leave them wanting more",
-                "icon": "LucidePencil"
-            },
-            {
-                "title": "Marketing Campaigns",
-                "description": "From branding videos to promotional reels, we craft campaigns that effectively showcase your products and services to the right audience",
-                "icon": "Megaphone"
-            }
-        ],
-        "why_choose_beez_production": "Choosing the right partner for your production needs can make all the difference. Here’s why Beez Production is your best choice",
-        "features": [
-            {
-                "title": "Innovative Storytelling",
-                "description": "We create content that captures hearts and mindvs"
-            },
-            {
-                "title": "Creative Expertise",
-                "description": "Fresh ideas tailored to your brand’s needs"
-            },
-            {
-                "title": "Tailored Solutions",
-                "description": "Customized strategies to achieve your goals"
-            },
-            {
-                "title": "Professional Quality",
-                "description": "High-end visuals with meticulous attention to detail"
-            },
-            {
-                "title": "Collaborative Process",
-                "description": "We listen, we create, and we deliver"
-            }
-        ],
-        "vision_and_value_video": "1085775754",
-        "portfolio": "We’ve had the pleasure of working with a diverse range of clients, producing commercials and campaigns that stand out in the market. Our work has been featured nationwide, earning us a reputation for creativity and excellence. Stay tuned for our upcoming projects – we’re just getting started!"
-    },
-    "about": {
-        "who_we_are": "Beez Production is an Iraqi video production",
-        "about_us": "dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions.",
-        "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it",
-        "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences",
-        "our_values": [
-            {
-                "title": "Creativity",
-                "description": "We push boundaries to craft original ideas that make your brand stand out."
-            },
-            {
-                "title": "Quality",
-                "description": " Excellence in every detail, from scripting to post-production."
-            },
-            {
-                "title": "Collaboration",
-                "description": "Your vision matters, and we make it our priority."
-            },
-            {
-                "title": "Innovation",
-                "description": "Continuously evolving to stay ahead of industry trends."
-            },
-            {
-                "title": "Integrity",
-                "description": "Building lasting relationships based on trust and transparency"
-            }
-        ],
-        "office_section_title": "Our Dubai Office",
-        "office_section_caption": "We are proud to announce the opening of our new office in Dubai, UAE. This expansion allows us to better serve our clients in the region and bring our unique creative vision to a wider audience.",
-        "office_image_1": "https://res.cloudinary.com/buuz-production/image/upload/v1753285078/pictures/chpppqmnsxmppg5boniw.jpg",
-        "office_image_1_public_id": "pictures/chpppqmnsxmppg5boniw",
-        "office_image_2": "https://res.cloudinary.com/buuz-production/image/upload/v1753285087/pictures/anh3vyzjc6zq36dzha8s.png",
-        "office_image_2_public_id": "pictures/anh3vyzjc6zq36dzha8s"
-    }
+  "home": {
+    "aboutProjects": [],
+    "portfolioProjects": [
+      {
+        "_id": "686b44ded38f0522c8e56b98",
+        "title": "Mirmaz  Academy TVC | Finding the missing X",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih Creative"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
+        "video": "https://vimeo.com/1085482332",
+        "created_time": "2025-05-18T17:53:21+00:00",
+        "video_uri": "/videos/1085482332",
+        "project_id": "1085482332",
+        "createdAt": "2025-07-07T03:54:06.205Z",
+        "updatedAt": "2025-07-08T04:08:27.780Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44e2d38f0522c8e56b9d",
+        "title": "Mirmaz Academy TVC | مرماز تحلها",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih Creative"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
+        "video": "https://vimeo.com/1067798040",
+        "created_time": "2025-03-20T15:54:35+00:00",
+        "video_uri": "/videos/1067798040",
+        "project_id": "1067798040",
+        "createdAt": "2025-07-07T03:54:10.805Z",
+        "updatedAt": "2025-07-08T04:08:32.463Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44f6d38f0522c8e56bb1",
+        "title": "ROMA TVC | ALL ROADS LEADS TO GOLD",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih Creative"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
+        "video": "https://vimeo.com/1067383413",
+        "created_time": "2025-03-19T15:25:04+00:00",
+        "video_uri": "/videos/1067383413",
+        "project_id": "1067383413",
+        "createdAt": "2025-07-07T03:54:30.442Z",
+        "updatedAt": "2025-07-08T04:08:57.570Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b4524d38f0522c8e56bca",
+        "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Malmaih Creative"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995279480-f21efa3e0c68b470883f6bffff68a1f373fd6e8e40cf1d1a60ed4398123a7ed4-d?region=us",
+        "video": "https://vimeo.com/1067369067",
+        "created_time": "2025-03-19T14:49:29+00:00",
+        "video_uri": "/videos/1067369067",
+        "project_id": "1067369067",
+        "createdAt": "2025-07-07T03:55:16.586Z",
+        "updatedAt": "2025-07-08T04:09:02.716Z",
+        "__v": 0
+      }
+    ],
+    "about_us": "We are your creative powerhouse, here to turn your ideas into visual masterpieces. Whether it’s engaging TV commercials or innovative creative concepts, we bring your vision to life with creativity, passion, and professionalism. Let’s create the buzz your brand deserves!",
+    "who_we_are": "Beez Production is an Iraqi video production and marketing agency dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions",
+    "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it.",
+    "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences.",
+    "our_services": "At Beez Production, we offer a full range of services designed to amplify your brand’s presence",
+    "services": [
+      {
+        "title": "Video Production",
+        "description": "From concept creation to final edits, we deliver cinematic visuals that tell your brand’s story powerfully and effectively",
+        "icon": "Clapperboard"
+      },
+      {
+        "title": "TV Commercials",
+        "description": "We specialize in creating commercials that grab attention and leave a powerful impression. Whether it’s humorous, dramatic, or action-packed, we deliver it with precision",
+        "icon": "TvIcon"
+      },
+      {
+        "title": "Creative Concepts",
+        "description": "Looking for something unique? Our creative team develops fresh, out-of-the-box ideas that resonate with your audience and leave them wanting more",
+        "icon": "LucidePencil"
+      },
+      {
+        "title": "Marketing Campaigns",
+        "description": "From branding videos to promotional reels, we craft campaigns that effectively showcase your products and services to the right audience",
+        "icon": "Megaphone"
+      }
+    ],
+    "why_choose_beez_production": "Choosing the right partner for your production needs can make all the difference. Here’s why Beez Production is your best choice",
+    "features": [
+      {
+        "title": "Innovative Storytelling",
+        "description": "We create content that captures hearts and mindvs"
+      },
+      {
+        "title": "Creative Expertise",
+        "description": "Fresh ideas tailored to your brand’s needs"
+      },
+      {
+        "title": "Tailored Solutions",
+        "description": "Customized strategies to achieve your goals"
+      },
+      {
+        "title": "Professional Quality",
+        "description": "High-end visuals with meticulous attention to detail"
+      },
+      {
+        "title": "Collaborative Process",
+        "description": "We listen, we create, and we deliver"
+      }
+    ],
+    "vision_and_value_video": "1085775754",
+    "portfolio": "We’ve had the pleasure of working with a diverse range of clients, producing commercials and campaigns that stand out in the market. Our work has been featured nationwide, earning us a reputation for creativity and excellence. Stay tuned for our upcoming projects – we’re just getting started!"
+  },
+  "about": {
+    "who_we_are": "Beez Production is an Iraqi video production",
+    "about_us": "dedicated to redefining creativity and storytelling in the world of advertising. Specializing in high-quality TV commercials and imaginative creative concepts, we transform ordinary ideas into extraordinary visuals that leave lasting impressions.",
+    "our_mission": "To elevate Iraqi TV commercials to new levels of creativity and directing. We believe every brand has a story to tell, and our job is to make sure your audience not only hears it but feels it",
+    "our_vision": "We aim to be the most innovative and influential video production company in Iraq, known for our cutting-edge creativity and high-quality content. Our goal is to create commercials that go beyond promotion and become memorable experiences",
+    "our_values": [
+      {
+        "title": "Creativity",
+        "description": "We push boundaries to craft original ideas that make your brand stand out."
+      },
+      {
+        "title": "Quality",
+        "description": " Excellence in every detail, from scripting to post-production."
+      },
+      {
+        "title": "Collaboration",
+        "description": "Your vision matters, and we make it our priority."
+      },
+      {
+        "title": "Innovation",
+        "description": "Continuously evolving to stay ahead of industry trends."
+      },
+      {
+        "title": "Integrity",
+        "description": "Building lasting relationships based on trust and transparency"
+      }
+    ],
+    "office_section_title": "Dubai Office",
+    "office_section_caption": "We are proud to announce the opening of our new office in Dubai, UAE. This expansion allows us to better serve our clients in the region and bring our unique creative vision to a wider audience.",
+    "office_image_1": "https://res.cloudinary.com/buuz-production/image/upload/v1753285078/pictures/chpppqmnsxmppg5boniw.jpg",
+    "office_image_1_public_id": "pictures/chpppqmnsxmppg5boniw",
+    "office_image_2": "https://res.cloudinary.com/buuz-production/image/upload/v1753285087/pictures/anh3vyzjc6zq36dzha8s.png",
+    "office_image_2_public_id": "pictures/anh3vyzjc6zq36dzha8s"
+  }
 }

@@ -1,64 +1,140 @@
 {
   "home": {
-    "aboutProjects": [],
-    "portfolioProjects": [
+    "hero_video": "1067383413",
+    "aboutProjects": [
       {
-        "_id": "686b44ded38f0522c8e56b98",
-        "title": "Mirmaz  Academy TVC | Finding the missing X",
+        "_id": "686b44d9d38f0522c8e56b93",
+        "title": "TCL  TVC | هيج لو هيج",
         "client": {
-          "_id": "686b44b5d38f0522c8e56b77",
-          "name": "Malmaih Creative"
+          "_id": "6881018b136ac29fac501b4e",
+          "name": "TCL",
+          "description": "TCL is a global leader in consumer electronics, specializing in high-quality televisions, smart home appliances, and innovative technology solutions. With a strong presence in Iraq, TCL delivers immersive experiences through cutting-edge design and performance.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285002/clients_backgrounds/nmxldp42h3174r8jyzcj.jpg",
+          "image_public_id": "clients_backgrounds/nmxldp42h3174r8jyzcj",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1753732915/logos/yuoesxecodotsmpjx1q9.png",
+          "logo_public_id": "logos/yuoesxecodotsmpjx1q9",
+          "createdAt": "2025-07-23T15:36:43.829Z",
+          "updatedAt": "2025-07-30T12:58:28.103Z"
         },
         "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
-        "video": "https://vimeo.com/1085482332",
-        "created_time": "2025-05-18T17:53:21+00:00",
-        "video_uri": "/videos/1085482332",
-        "project_id": "1085482332",
-        "createdAt": "2025-07-07T03:54:06.205Z",
-        "updatedAt": "2025-07-08T04:08:27.780Z",
+        "thumbnail": "https://i.vimeocdn.com/video/1995656737-286100428757701526f6eb9591bf8e11560ede7deb1fa52605db4c3bd2b0c7f0-d?region=us",
+        "video": "https://vimeo.com/1067692231",
+        "created_time": "2025-05-19T17:35:09+00:00",
+        "video_uri": "/videos/1067692231",
+        "project_id": "1085775754",
+        "createdAt": "2025-07-07T03:54:01.672Z",
+        "updatedAt": "2025-07-30T12:48:37.346Z",
         "__v": 0
       },
       {
-        "_id": "686b44e2d38f0522c8e56b9d",
-        "title": "Mirmaz Academy TVC | مرماز تحلها",
+        "_id": "686b44e8d38f0522c8e56ba2",
+        "title": "TCL | Video Commercial | هيج لو هيج",
         "client": {
-          "_id": "686b44b5d38f0522c8e56b77",
-          "name": "Malmaih Creative"
+          "_id": "6881018b136ac29fac501b4e",
+          "name": "TCL",
+          "description": "TCL is a global leader in consumer electronics, specializing in high-quality televisions, smart home appliances, and innovative technology solutions. With a strong presence in Iraq, TCL delivers immersive experiences through cutting-edge design and performance.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285002/clients_backgrounds/nmxldp42h3174r8jyzcj.jpg",
+          "image_public_id": "clients_backgrounds/nmxldp42h3174r8jyzcj",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1753732915/logos/yuoesxecodotsmpjx1q9.png",
+          "logo_public_id": "logos/yuoesxecodotsmpjx1q9",
+          "createdAt": "2025-07-23T15:36:43.829Z",
+          "updatedAt": "2025-07-30T12:58:28.103Z"
         },
         "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
-        "video": "https://vimeo.com/1067798040",
-        "created_time": "2025-03-20T15:54:35+00:00",
-        "video_uri": "/videos/1067798040",
-        "project_id": "1067798040",
-        "createdAt": "2025-07-07T03:54:10.805Z",
-        "updatedAt": "2025-07-08T04:08:32.463Z",
+        "thumbnail": "https://i.vimeocdn.com/video/1995657209-67d8b23e64e1fe2e9c2d8ca11da0398283179ec22b2bd8f87c1c97b200b7a35e-d?region=us",
+        "video": "https://vimeo.com/1067695026",
+        "created_time": "2025-03-20T11:13:11+00:00",
+        "video_uri": "/videos/1067695026",
+        "project_id": "1067695026",
+        "createdAt": "2025-07-07T03:54:16.320Z",
+        "updatedAt": "2025-07-30T12:58:28.214Z",
         "__v": 0
       },
       {
-        "_id": "686b44f6d38f0522c8e56bb1",
-        "title": "ROMA TVC | ALL ROADS LEADS TO GOLD",
+        "_id": "686b44fad38f0522c8e56bb6",
+        "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
         "client": {
-          "_id": "686b44b5d38f0522c8e56b77",
-          "name": "Malmaih Creative"
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
         },
         "type": "Commercial",
-        "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
-        "video": "https://vimeo.com/1067383413",
-        "created_time": "2025-03-19T15:25:04+00:00",
-        "video_uri": "/videos/1067383413",
-        "project_id": "1067383413",
-        "createdAt": "2025-07-07T03:54:30.442Z",
-        "updatedAt": "2025-07-08T04:08:57.570Z",
+        "thumbnail": "https://i.vimeocdn.com/video/1995281658-f62c9c6a3d243a1dfc3d5cd27ae50c9a0880f15935dfdada31c9a4da12e4653b-d?region=us",
+        "video": "https://vimeo.com/1067379033",
+        "created_time": "2025-03-19T15:13:45+00:00",
+        "video_uri": "/videos/1067379033",
+        "project_id": "1067379033",
+        "createdAt": "2025-07-07T03:54:34.814Z",
+        "updatedAt": "2025-07-07T16:57:25.707Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b452ed38f0522c8e56bd4",
+        "title": "Alasal Sweet TVC | Ramadan Campaign",
+        "client": {
+          "_id": "688a16b59d0ec03e25815210",
+          "name": "Alasal Sweet",
+          "description": "Al-Asal Sweets is a heritage Iraqi brand crafting premium honey-based desserts since 1986. With deep roots in tradition and a passion for quality, they continue to deliver timeless flavors that connect generations.\r\n\r\n",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753880243/clients_backgrounds/fm1h6gyyiz2qybzkqklt.png",
+          "image_public_id": "clients_backgrounds/fm1h6gyyiz2qybzkqklt",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1753880245/logos/pxc6cu6bwbkhtqkdlh0i.png",
+          "logo_public_id": "logos/pxc6cu6bwbkhtqkdlh0i",
+          "createdAt": "2025-07-30T12:57:25.668Z",
+          "updatedAt": "2025-07-30T12:57:41.256Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995192878-6e395d88b04320838973530db557ef09bb63bc5539b8fe377a32d5c63fb07842-d?region=us",
+        "video": "https://vimeo.com/1067306208",
+        "created_time": "2025-03-19T11:52:16+00:00",
+        "video_uri": "/videos/1067306208",
+        "project_id": "1067306208",
+        "createdAt": "2025-07-07T03:55:26.001Z",
+        "updatedAt": "2025-07-30T12:57:41.367Z",
+        "__v": 0
+      },
+      {
+        "_id": "688a1c1e9d0ec03e2581526b",
+        "title": "Mirmaz  Academy TVC | مرماز تحلها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/2042359807-27eeadb97e5d25498d3608e2bcf5e4c787cf218b04ec0d18e8d7ea04358a56ba-d?region=us",
+        "video": "https://vimeo.com/1105761757",
+        "created_time": "2025-07-30T12:00:50+00:00",
+        "video_uri": "/videos/1105761757",
+        "project_id": "1105761757",
+        "createdAt": "2025-07-30T13:20:30.016Z",
+        "updatedAt": "2025-07-30T13:20:30.016Z",
         "__v": 0
       },
       {
         "_id": "686b4524d38f0522c8e56bca",
         "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
         "client": {
-          "_id": "686b44b5d38f0522c8e56b77",
-          "name": "Malmaih Creative"
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
         },
         "type": "Commercial",
         "thumbnail": "https://i.vimeocdn.com/video/1995279480-f21efa3e0c68b470883f6bffff68a1f373fd6e8e40cf1d1a60ed4398123a7ed4-d?region=us",
@@ -67,7 +143,197 @@
         "video_uri": "/videos/1067369067",
         "project_id": "1067369067",
         "createdAt": "2025-07-07T03:55:16.586Z",
-        "updatedAt": "2025-07-08T04:09:02.716Z",
+        "updatedAt": "2025-07-30T12:50:38.973Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44f1d38f0522c8e56bac",
+        "title": "ROMA TVC | ALL ROADS LEADS TO GOLD",
+        "client": {
+          "_id": "686b44b5d38f0522c8e56b77",
+          "name": "Roma",
+          "description": "Roma Beauty Salon is a luxury beauty destination based in Baghdad, offering professional hair styling, makeup, and personalized beauty services. From in-salon treatments to premium home service, we’re here to bring out your best look with elegance, care, and creativity.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1751860405/clients_backgrounds/rl4orbr9p8krxvmptscv.webp",
+          "image_public_id": "clients_backgrounds/rl4orbr9p8krxvmptscv",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1753732723/logos/zty6igbf62vbosecisig.png",
+          "logo_public_id": "logos/zty6igbf62vbosecisig",
+          "createdAt": "2025-07-07T03:53:25.280Z",
+          "updatedAt": "2025-07-30T12:58:49.400Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995313105-544f23c19422dbab6716f53ae9fc378e6c629ec5c7a39ef881e738da3ee06925-d?region=us",
+        "video": "https://vimeo.com/1067404990",
+        "created_time": "2025-03-19T16:20:22+00:00",
+        "video_uri": "/videos/1067404990",
+        "project_id": "1067404990",
+        "createdAt": "2025-07-07T03:54:25.826Z",
+        "updatedAt": "2025-07-30T12:58:18.927Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44ded38f0522c8e56b98",
+        "title": "Mirmaz  Academy TVC | Finding the missing X",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
+        "video": "https://vimeo.com/1085482332",
+        "created_time": "2025-05-18T17:53:21+00:00",
+        "video_uri": "/videos/1085482332",
+        "project_id": "1085482332",
+        "createdAt": "2025-07-07T03:54:06.205Z",
+        "updatedAt": "2025-07-30T12:58:49.621Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44e2d38f0522c8e56b9d",
+        "title": "Mirmaz Academy TVC | مرماز تحلها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
+        "video": "https://vimeo.com/1067798040",
+        "created_time": "2025-03-20T15:54:35+00:00",
+        "video_uri": "/videos/1067798040",
+        "project_id": "1067798040",
+        "createdAt": "2025-07-07T03:54:10.805Z",
+        "updatedAt": "2025-07-30T12:58:42.813Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44f6d38f0522c8e56bb1",
+        "title": "Mirmaz Academy  TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
+        "video": "https://vimeo.com/1067383413",
+        "created_time": "2025-03-19T15:25:04+00:00",
+        "video_uri": "/videos/1067383413",
+        "project_id": "1067383413",
+        "createdAt": "2025-07-07T03:54:30.442Z",
+        "updatedAt": "2025-07-30T12:49:56.812Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b4529d38f0522c8e56bcf",
+        "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy",
+          "description": "Marmaz Academy is a social learning platform for distance learning that brings teachers and students together in one place, making the learning process more collaborative and innovative. It's a comprehensive, advanced educational system with a technical level that's the first of its kind in Iraq, saving significant time and effort in the educational process for both teachers and students.",
+          "image": "https://res.cloudinary.com/buuz-production/image/upload/v1753285467/clients_backgrounds/h9o2x86qeuqlhtoxikjk.jpg",
+          "image_public_id": "clients_backgrounds/h9o2x86qeuqlhtoxikjk",
+          "logo": "https://res.cloudinary.com/buuz-production/image/upload/v1751907409/logos/nbenyvcv2guhnasr5jq3.webp",
+          "logo_public_id": "logos/nbenyvcv2guhnasr5jq3",
+          "createdAt": "2025-07-07T16:56:49.787Z",
+          "updatedAt": "2025-07-30T13:24:29.095Z"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995263932-7bb078ce8df72a75b9a260e66b65873abc024baa4fd1e2d975f2af6ea49a0a45-d?region=us",
+        "video": "https://vimeo.com/1067363464",
+        "created_time": "2025-03-19T14:36:46+00:00",
+        "video_uri": "/videos/1067363464",
+        "project_id": "1067363464",
+        "createdAt": "2025-07-07T03:55:21.719Z",
+        "updatedAt": "2025-07-08T04:09:08.667Z",
+        "__v": 0
+      }
+    ],
+    "portfolioProjects": [
+      {
+        "_id": "686b44ded38f0522c8e56b98",
+        "title": "Mirmaz  Academy TVC | Finding the missing X",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/2017058238-eeef8072e67e0910355d09ffca5a346c164dec73268621ff41d24aacd78d122e-d?region=us",
+        "video": "https://vimeo.com/1085482332",
+        "created_time": "2025-05-18T17:53:21+00:00",
+        "video_uri": "/videos/1085482332",
+        "project_id": "1085482332",
+        "createdAt": "2025-07-07T03:54:06.205Z",
+        "updatedAt": "2025-07-30T12:58:49.621Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44e2d38f0522c8e56b9d",
+        "title": "Mirmaz Academy TVC | مرماز تحلها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995779545-c2f322c1a38c288050539ff01eedcf5d0f88d70eec153478aa03d3526c48e420-d?region=us",
+        "video": "https://vimeo.com/1067798040",
+        "created_time": "2025-03-20T15:54:35+00:00",
+        "video_uri": "/videos/1067798040",
+        "project_id": "1067798040",
+        "createdAt": "2025-07-07T03:54:10.805Z",
+        "updatedAt": "2025-07-30T12:58:42.813Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b44f6d38f0522c8e56bb1",
+        "title": "Mirmaz Academy  TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995309409-46f128fb79f802caf9ac8a924b344de7a85ad5d0047c49144d77e4baf0669c9c-d?region=us",
+        "video": "https://vimeo.com/1067383413",
+        "created_time": "2025-03-19T15:25:04+00:00",
+        "video_uri": "/videos/1067383413",
+        "project_id": "1067383413",
+        "createdAt": "2025-07-07T03:54:30.442Z",
+        "updatedAt": "2025-07-30T12:49:56.812Z",
+        "__v": 0
+      },
+      {
+        "_id": "686b4524d38f0522c8e56bca",
+        "title": "Mirmaz  Academy TVC | افهمها من الخاتمها",
+        "client": {
+          "_id": "686bfc5172b1934d3a40e51e",
+          "name": "Mirmaz Academy"
+        },
+        "type": "Commercial",
+        "thumbnail": "https://i.vimeocdn.com/video/1995279480-f21efa3e0c68b470883f6bffff68a1f373fd6e8e40cf1d1a60ed4398123a7ed4-d?region=us",
+        "video": "https://vimeo.com/1067369067",
+        "created_time": "2025-03-19T14:49:29+00:00",
+        "video_uri": "/videos/1067369067",
+        "project_id": "1067369067",
+        "createdAt": "2025-07-07T03:55:16.586Z",
+        "updatedAt": "2025-07-30T12:50:38.973Z",
         "__v": 0
       }
     ],
@@ -151,11 +417,11 @@
         "description": "Building lasting relationships based on trust and transparency"
       }
     ],
-    "office_section_title": "Dubai Office",
-    "office_section_caption": "We are proud to announce the opening of our new office in Dubai, UAE. This expansion allows us to better serve our clients in the region and bring our unique creative vision to a wider audience.",
-    "office_image_1": "https://res.cloudinary.com/buuz-production/image/upload/v1753285078/pictures/chpppqmnsxmppg5boniw.jpg",
-    "office_image_1_public_id": "pictures/chpppqmnsxmppg5boniw",
-    "office_image_2": "https://res.cloudinary.com/buuz-production/image/upload/v1753285087/pictures/anh3vyzjc6zq36dzha8s.png",
-    "office_image_2_public_id": "pictures/anh3vyzjc6zq36dzha8s"
+    "office_section_title": "Office ",
+    "office_section_caption": "Our headquarters is based in Baghdad, Iraq — a space designed to inspire creativity and support every stage of production. While we continue to grow, our focus remains on delivering exceptional work and building strong partnerships across the region and beyond.",
+    "office_image_1": "https://res.cloudinary.com/buuz-production/image/upload/v1753974377/pictures/rqvxhtihzn6qhcjomdmj.jpg",
+    "office_image_1_public_id": "pictures/rqvxhtihzn6qhcjomdmj",
+    "office_image_2": "https://res.cloudinary.com/buuz-production/image/upload/v1753975894/pictures/zrquztjrjxnmt9w055gc.jpg",
+    "office_image_2_public_id": "pictures/zrquztjrjxnmt9w055gc"
   }
 }

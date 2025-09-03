@@ -12,6 +12,8 @@ export class Employee {
   image: string;
   @Prop({ required: true })
   image_public_id: string;
+  @Prop({ required: true, type: Number,})
+  order: number;
 }
 
 export const employeeSchema = SchemaFactory.createForClass(Employee);

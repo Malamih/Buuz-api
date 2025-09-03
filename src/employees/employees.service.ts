@@ -6,6 +6,16 @@ import { CreateEmployeeDto } from './dtos/create-employee.dto';
 import { UpdateEmployeeDto } from './dtos/update-employee.dto';
 import { CloudinaryService } from 'src/cloudinary/cloudinary.service';
 
+import { IsArray, IsMongoId, IsNumber } from 'class-validator';
+
+export class UpdateEmployeesOrderDto {
+  @IsArray()
+  employees: {
+    id: string;
+    order: number;
+  }[];
+}
+
 @Injectable()
 export class EmployeesService {
   constructor(
@@ -22,7 +32,7 @@ export class EmployeesService {
         ...filters,
       })
       .exec();
-    return {
+      return {
       message: 'Employees have been fetched successfully',
       payload: employees,
     };
@@ -40,67 +50,59 @@ export class EmployeesService {
   }
 
   async create(
-    data: CreateEmployeeDto,
-    image: Express.Multer.File,
-  ): Promise<{ message: string; payload: Employee } | undefined> {
-    try {
-      const { secure_url, public_id } =
-        await this.cloudinaryService.uploadImage(image, 'employees');
-      const employee = await this.employeeModel.create({
-        ...data,
-        image: secure_url,
-        image_public_id: public_id,
-      });
-      return { message: 'Employee created successfully', payload: employee };
-    } catch (error) {
-      throw new Error('Error creating employee: ' + error.message);
-    }
+  data: CreateEmployeeDto,
+  image: Express.Multer.File,
+): Promise<{ message: string; payload: Employee }> {
+  const { secure_url, public_id } =
+    await this.cloudinaryService.uploadImage(image, 'employees');
+
+  // الحصول على آخر order موجود
+  const lastEmployee = await this.employeeModel.findOne().sort({ order: -1 }).exec();
+  const nextOrder = lastEmployee ? lastEmployee.order + 1 : 1;
+
+  const employee = await this.employeeModel.create({
+    ...data,
+    image: secure_url,
+    image_public_id: public_id,
+    order: nextOrder, // تعيين order عند الإنشاء
+  });
+
+  return { message: 'Employee created successfully', payload: employee };
+}
+
+
+async update(
+  id: string,
+  data: UpdateEmployeeDto,
+  image?: Express.Multer.File,
+) {
+  const existingEmployee = await this.employeeModel.findById(id);
+  if (!existingEmployee) throw new Error('Employee not found');
+
+  let secure_url: string | null = null;
+  let public_id: string | null = null;
+
+  if (image) {
+    await this.cloudinaryService.deleteImage(existingEmployee.image_public_id);
+    const uploadResult = await this.cloudinaryService.uploadImage(image, 'employees');
+    secure_url = uploadResult.secure_url;
+    public_id = uploadResult.public_id;
   }
 
-  async update(
-    id: string,
-    data: UpdateEmployeeDto,
-    image?: Express.Multer.File,
-  ): Promise<{ message: string; payload: Employee | null } | undefined> {
-    try {
-      if (!mongoose.isValidObjectId(id)) {
-        throw new Error('Invalid employee ID');
-      }
-      const existingEmployee = await this.employeeModel.findById(id);
-      if (!existingEmployee) {
-        throw new Error('Employee not found');
-      }
-      let secure_url: null | string = null;
-      let public_id: null | string = null;
-      if (image) {
-        await this.cloudinaryService.deleteImage(
-          existingEmployee.image_public_id,
-        );
-        const uploadResult = await this.cloudinaryService.uploadImage(
-          image,
-          'employees',
-        );
-        secure_url = uploadResult.secure_url;
-        public_id = uploadResult.public_id;
-      }
-      const updatedEmployee = await this.employeeModel.findByIdAndUpdate(
-        id,
-        {
-          $set: {
-            ...data,
-            ...(secure_url && public_id
-              ? { image: secure_url, image_public_id: public_id }
-              : {}),
-          },
-        },
-        { new: true },
-      );
-      return {
-        message: 'Employee updated successfully',
-        payload: updatedEmployee,
-      };
-    } catch (error) {}
-  }
+  const updatedEmployee = await this.employeeModel.findByIdAndUpdate(
+    id,
+    {
+      $set: {
+        ...data,
+        ...(secure_url && public_id ? { image: secure_url, image_public_id: public_id } : {}),
+      },
+    },
+    { new: true },
+  );
+
+  return { message: 'Employee updated successfully', payload: updatedEmployee };
+}
+
 
   async delete(id: string): Promise<{ message: string; result: any }> {
     if (!mongoose.isValidObjectId(id)) {
@@ -120,4 +122,49 @@ export class EmployeesService {
     const result = await this.employeeModel.deleteMany().exec();
     return { message: 'All employees have been deleted successfully', result };
   }
+
+  async updateOrder(data: { employees: { id: string; order: number }[] }) {
+  const bulkOps = data.employees.map(emp => ({
+    updateOne: {
+      filter: { _id: emp.id },
+      update: { $set: { order: emp.order } },
+    },
+  }));
+  await this.employeeModel.bulkWrite(bulkOps);
+  return { message: 'Employees order updated successfully' };
+}
+
+private async reorderAllEmployees() {
+  const employees = await this.employeeModel.find().sort({ order: 1 }).exec();
+
+  const bulkOps = employees.map((emp, index) => ({
+    updateOne: {
+      filter: { _id: emp._id },
+      update: { $set: { order: index + 1 } }, // ترتيب متسلسل
+    },
+  }));
+
+  if (bulkOps.length > 0) {
+    await this.employeeModel.bulkWrite(bulkOps);
+  }
+}
+
+
+async initializeOrder() {
+  const employees = await this.employeeModel.find().exec();
+
+  // نضيف order لكل موظف حسب ترتيبه الحالي في المصفوفة
+  const bulkOps = employees.map((emp, index) => ({
+    updateOne: {
+      filter: { _id: emp._id },
+      update: { $set: { order: index + 1 } }, // order يبدأ من 1
+    },
+  }));
+
+  if (bulkOps.length > 0) {
+    await this.employeeModel.bulkWrite(bulkOps);
+  }
+
+  return { message: 'All employees have been initialized with order.' };
+}
 }

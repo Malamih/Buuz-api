@@ -12,7 +12,7 @@ import {
   UseGuards,
   UseInterceptors,
 } from '@nestjs/common';
-import { EmployeesService } from './employees.service';
+import { EmployeesService, UpdateEmployeesOrderDto } from './employees.service';
 import { CreateEmployeeDto } from './dtos/create-employee.dto';
 import { UpdateEmployeeDto } from './dtos/update-employee.dto';
 import { FileInterceptor } from '@nestjs/platform-express';
@@ -49,7 +49,10 @@ export class EmployeesController {
     }
     return await this.employeesService.create(data, image);
   }
-
+ @Put('reorder')
+  async reorderEmployees(@Body() body: UpdateEmployeesOrderDto) {
+    return this.employeesService.updateOrder(body);
+  }
   @Put(':id')
   @UseGuards(AuthGuard())
   @UseInterceptors(FileInterceptor('image'))
@@ -72,4 +75,6 @@ export class EmployeesController {
   async deleteAll() {
     return await this.employeesService.deleteAll();
   }
+
+ 
 }
